@@ -281,5 +281,5 @@ if __name__ == "__main__":
     else:
         archs = [ (iphoneOSArchs, "iPhoneOS"), (iphoneSimulatorArchs, "iPhoneSimulator"), ]
 
-    #b = iOSBuilder(args.opencv, args.contrib, args.dynamic, args.bitcodedisabled, args.without, archs)
-    #b.build(args.out)
+    b = iOSBuilder(args.opencv, args.contrib, args.dynamic, args.bitcodedisabled, args.without, archs)
+    b.build(args.out)
