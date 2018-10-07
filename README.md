@@ -22,8 +22,8 @@ This script will help you to build your own custom light version of OpenCV for i
 ## How To Use
 
 ```shell
-git clone https://github.com/eugenebokhan/OpenCV-iOS-Light-Superbuild.git && cd OpenCV-iOS-Light-Superbuild/
-./Script/build_opencv_ios_lite.sh
+git clone https://github.com/eugenebokhan/OpenCV-iOS-Light-Superbuild.git && cd OpenCV-iOS-Light-Superbuild/Code/
+./build_opencv_ios_lite.sh
 ```
 
 ## OpenCV Modules Info
