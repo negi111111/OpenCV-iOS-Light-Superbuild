@@ -10,7 +10,7 @@ This script will help you to build your own custom light version of OpenCV for i
 * Choose necessary `architectures`
 * Build `static / dynamic` version
 
-<p align="left">
+<p align="center">
     <img src="Media/OpenCV-iOS-Light-Superbuild.png", width="800">
 </p>
 
@@ -79,4 +79,4 @@ The video stabilization module contains a set of functions and classes that can 
 
 ## License
 
-[Project's license](LICENSE) is based on the MIT.
+[Project's license](LICENSE) is based on the BSD 3-Clause.
