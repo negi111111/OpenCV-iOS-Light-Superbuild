@@ -45,7 +45,7 @@ python_command="sudo python setup_opencv_cmake_build.py $build_folder --opencv $
 printf "\n"
 echo "${magenta}OpenCV${nocolor} has the following optional modules: ${yellow}imgcodecs, imgproc, calib3d, features2D, flann, highgui, ml, objdetect, photo, stitching, video, videoio, videostab${nocolor}."
 printf "\n"
-echo "Please, enter the names of the modules you'd like to include. [For example: '${green}imgproc calib3d flann${nocolor}' ]"
+echo "Please, enter the names of the modules you'd like to include. [For example: '${green}imgproc calib3d flann${nocolor}']"
 read array_of_modules_to_include
 
 # Create an array containig selected modules with their dependencies
